@@ -1,94 +1,96 @@
-# REPLATE
-FOOD SHARING APPLICATION
 # 🌿 Replate — Rescue Food. Feed People.
 
-### Save leftover food before it expires. 🍱❤️
+### Rescue food. Feed people.
 
-Replate is a **Full Stack Development project** designed to reduce food waste by connecting people and event organizers with surplus food to NGOs and volunteers who can help redistribute it to people in need.
+Replate is a **frontend web development project** created as part of our **Full Stack Development course during the 2nd year of our B.Tech program**.
 
-The platform provides a simple workflow:
+The project focuses on a real-world problem: **food waste**.
 
-**Report Surplus Food → NGO Gets Notified → Volunteer Delivers → People Get Fed**
-
----
-
-## 📌 About the Project
-
-Replate was developed as a **Full Stack Development project during the 2nd year of our B.Tech program**.
-
-The project addresses a common real-world problem: large amounts of edible food are wasted after events, functions, restaurants, and other gatherings, while many people still struggle to access sufficient food.
-
-Instead of allowing surplus food to become waste, Replate provides a platform where surplus food can be reported and coordinated with NGOs and volunteers for redistribution.
-
-🌱 **Our goal is simple:**
-
-> Turn surplus food into meals instead of waste.
+Replate is designed as a platform concept that connects **surplus food providers, NGOs, and volunteers** to make food rescue and redistribution easier.
 
 ---
 
-## 🎯 Problem Statement
+## 💡 About the Project
 
-Every day, significant quantities of edible food are discarded because it is left over from:
+Every day, edible food can be left over after events, functions, restaurants, institutions, and other gatherings.
 
-- 🍽️ Events and functions
-- 🏨 Hotels and restaurants
-- 🎉 Parties and celebrations
-- 🏫 College and institutional events
-- 🏢 Corporate gatherings
-- 🏠 Household occasions
+At the same time, many people still struggle to access sufficient food.
 
-At the same time, organizations working with people in need often struggle to identify and collect available surplus food quickly.
+This led us to a simple question:
 
-The main challenge is therefore:
+> **What if surplus food could be connected to people who need it before it becomes waste?**
 
-**How can we connect surplus food with NGOs and volunteers quickly enough before the food expires?**
+With this idea, we created **Replate — Rescue Food. Feed People.**
 
----
+### Our proposed workflow
 
-## 💡 Our Solution
+🍱 **Report Surplus Food**  
+↓  
+🏢 **NGO Coordination**  
+↓  
+🚴 **Volunteer Coordination**  
+↓  
+❤️ **Food Reaches People in Need**
 
-Replate acts as a coordination platform between:
-
-**Food Providers → NGOs → Volunteers → People in Need**
-
-A user can report available surplus food by providing important information such as:
-
-- 📍 Location
-- 🍱 Quantity of food
-- ⏰ Expiry / availability time
-- 📝 Food details
-
-The platform can then make the information available to NGOs, allowing suitable food rescues to be coordinated.
-
-Volunteers can help with the transportation and delivery of the rescued food.
+> **Note:** The current version is a frontend implementation that demonstrates the interface and workflow concept. Backend services, databases, authentication, real-time notifications, and automated matching are not implemented in the current version.
 
 ---
 
-# 🔄 How Replate Works
+## ✨ Key Features
+
+### 🍱 Report Food
+A dedicated interface for reporting available surplus food, including details such as food information, quantity, location, and availability time.
+
+### 📋 Live Listings
+A section designed to display available food rescue opportunities.
+
+### 🏢 NGO Dashboard
+An interface concept designed for NGOs to view and coordinate food rescue opportunities.
+
+### 🚴 Volunteer
+A dedicated section representing the volunteer pickup and delivery workflow.
+
+### 📊 Impact
+An impact section that visually represents the potential social and environmental impact of food rescue.
+
+---
+
+## 🛠️ Technologies Used
+
+### Frontend
+- HTML5
+- CSS3
+- JavaScript
+
+### Development & Deployment
+- Git
+- GitHub
+- GitHub Pages
+
+---
+
+## 🎨 Design
+
+The website was designed with a focus on:
+
+- Clean and simple UI
+- Easy navigation
+- Responsive design
+- Clear visual hierarchy
+- User-friendly interfaces
+- Sustainability-focused branding
+
+---
+
+## 🔄 How Replate Works
 
 ```text
         🍱 SURPLUS FOOD
-               │
-               ▼
-       ┌─────────────────┐
-       │  Report Food    │
-       │  & Location     │
-       └────────┬────────┘
-                │
-                ▼
-       ┌─────────────────┐
-       │  NGO Receives   │
-       │  Notification   │
-       └────────┬────────┘
-                │
-                ▼
-       ┌─────────────────┐
-       │ Volunteer       │
-       │ Coordination    │
-       └────────┬────────┘
-                │
-                ▼
-       ┌─────────────────┐
-       │ Food Delivered  │
-       │ to People       │
-       └─────────────────┘
+               ↓
+        📋 REPORT FOOD
+               ↓
+          🏢 NGO
+               ↓
+        🚴 VOLUNTEER
+               ↓
+      ❤️ PEOPLE IN NEED
